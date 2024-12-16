@@ -78,11 +78,6 @@ The project is containerized using Docker Compose, ensuring easy setup, isolatio
 
 ---
 
-## Configuration
-- Database credentials and configurations are hardcoded in the `elt_script.py`. You can externalize these into environment variables or configuration files for better security and flexibility.
-
----
-
 ## Challenges and Solutions
 1. **Database Connection Handling**:
    - Implemented a retry mechanism using `pg_isready` to ensure the database is ready before executing commands.
