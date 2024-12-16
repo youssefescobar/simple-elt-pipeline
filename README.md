@@ -1,5 +1,3 @@
-Here’s a **README** for your ELT (Extract, Load, Transform) pipeline project based on the files you shared:
-
 ---
 
 # ELT Pipeline with PostgreSQL and Docker
